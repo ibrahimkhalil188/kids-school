@@ -26,7 +26,12 @@ a{
     font-size: 20px;
     display: flex;
     justify-content:space-between;
-   align-items: center;
+    align-items: center;
+}
+
+.nav1 ul li{
+    list-style: none;
+    display: inline-block;
 }
 
 .mail-phone{
@@ -40,15 +45,13 @@ a{
 }
 .social{
     margin-right: 5%;
+    padding-top: 15px;
+
 }
+
 .social ul li{
     margin-left: 15px;
 }
-.nav1 ul li{
-    list-style: none;
-    display: inline-block;
-}
-
 
 .nav2{
     height: 84px;
