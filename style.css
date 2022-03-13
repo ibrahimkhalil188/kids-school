@@ -88,3 +88,32 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.we-offer-setion-img{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    
+}
+.Graphic-1{
+    background-color: #00abe9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.Graphic-1 h2, .Graphic-2,h2{
+    margin: 5%;
+}
+.Graphic-2{
+    background-color: #05e1d6;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
