@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Montserrat:ital,wght@0,400;0,500;1,300&family=Poppins:ital,wght@0,500;0,600;1,500&family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color:rgba(17, 16, 16, 0.782);
+}
+.nav1{
+    background-color:#fe4b7b;
+    height: 44px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content:space-between;
+   align-items: center;
+}
+
+.mail-phone{
+    width: 60vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.mail-phone i{
+    margin-right:15px;
+}
+.social{
+    margin-right: 5%;
+}
+.social ul li{
+    margin-left: 15px;
+}
+.nav1 ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+.nav2{
+    height: 84px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    color:rgb(36, 29, 29)
+}
+
+.nav2 div ul li{
+    display: inline-block;
+    list-style: none;
+}
+.nav2 div ul li a{
+    
+    padding:0px 15px ;
+}
+#get-kidzo{
+    border: 1px solid #fe4b7b;
+    border-radius: 100px;
+    padding: 8px 20px;
+}
+#get-kidzo:hover{
+    background-color: #fe4b7b;
+    color:white;
+    transition-duration:.5s;
+}
+
