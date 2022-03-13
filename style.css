@@ -51,7 +51,6 @@ a{
 
 .social ul li{
     margin-left: 15px;
-    margin-bottom: 15px;
 }
 
 .nav2{
@@ -84,3 +83,8 @@ a{
     transition-duration:.5s;
 }
 
+.we-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
