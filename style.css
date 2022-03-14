@@ -122,6 +122,18 @@ a{
     position: absolute;
     top:60%;
     left:92%;
-
 }
 
+.education-program{
+    display: flex;
+    justify-content: space-around;
+}
+.education-program div{
+    margin: 2%;
+    padding: 4% 2%;
+    text-align: center;
+    border-radius: 5%;
+}
+.education-program:hover div {
+    background-color: red;
+}
